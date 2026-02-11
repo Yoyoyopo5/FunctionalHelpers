@@ -1,6 +1,6 @@
 # TwitchySharp.Helpers.Functional
 
-A minimal functional pipeline library for C# .NET 8.0. Build composable async pipelines from three primitives: **Steps** (transforms), **Layers** (middleware), and **Effects** (side effects).
+A minimal functional pipeline library for C# .NET 8.0 and higher. Build composable async pipelines from three primitives: **Steps** (transforms), **Layers** (middleware), and **Effects** (side effects).
 
 ## Core Types
 
