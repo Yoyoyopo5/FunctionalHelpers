@@ -1,5 +1,10 @@
 # TwitchySharp.Helpers.Functional
 
+![NuGet Version](https://img.shields.io/nuget/v/Yoyoyopo5.Helpers.Functional)
+![Build Status](https://github.com/Yoyoyopo5/FunctionalHelpers/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/github/license/Yoyoyopo5/FunctionalHelpers)
+![Target](https://img.shields.io/badge/.NET-8.0%20%7C%2010.0-blue)
+
 A minimal functional pipeline library for C# .NET 8.0 and higher. Build composable async pipelines from three primitives: **Steps** (transforms), **Layers** (middleware), and **Effects** (side effects).
 
 ## Core Types
