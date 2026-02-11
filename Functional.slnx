@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Yoyoyopo5.Helpers.Functional.Tests/Yoyoyopo5.Helpers.Functional.Tests.csproj" />
+  <Project Path="Yoyoyopo5.Helpers.Functional/Yoyoyopo5.Helpers.Functional.csproj" />
+</Solution>

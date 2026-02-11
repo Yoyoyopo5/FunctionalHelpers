@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    
+    <PackageId>Yoyoyopo5.Helpers.Functional</PackageId>
+    <Title>Yoyoyopo5 Functional Helpers</Title>
+    <Authors>Yoyoyopo5</Authors>
+    <Description>A collection of delegates and extensions for building functional applications.</Description>
+    <Copyright>Copyright (c) 2026</Copyright>
+    <PackageProjectUrl>https://github.com/Yoyoyopo5/FunctionalHelpers</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Yoyoyopo5/FunctionalHelpers</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>net8;library;utility;functional</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All"/>
+  </ItemGroup>
+    
+</Project>
