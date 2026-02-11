@@ -1,4 +1,4 @@
-# TwitchySharp.Helpers.Functional
+# Yoyoyopo5.Helpers.Functional
 
 ![NuGet Version](https://img.shields.io/nuget/v/Yoyoyopo5.Helpers.Functional)
 ![Build Status](https://github.com/Yoyoyopo5/FunctionalHelpers/actions/workflows/ci.yml/badge.svg)
@@ -387,7 +387,7 @@ The library is built on a `partial class FunctionalExtensions` pattern. Add new 
 ### Adding a new combinator
 
 ```csharp
-namespace TwitchySharp.Helpers.Functional;
+namespace Yoyoyopo5.Helpers.Functional;
 
 public static partial class FunctionalExtensions
 {
@@ -406,7 +406,7 @@ public static partial class FunctionalExtensions
 ### Adding a new operation
 
 ```csharp
-namespace TwitchySharp.Helpers.Functional;
+namespace Yoyoyopo5.Helpers.Functional;
 
 public static partial class FunctionalOperations
 {
