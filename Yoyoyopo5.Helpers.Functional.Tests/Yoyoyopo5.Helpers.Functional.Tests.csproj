@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Helpers.Functional\Yoyoyopo5.Helpers.Functional.csproj" />
+    <ProjectReference Include="..\Yoyoyopo5.Helpers.Functional\Yoyoyopo5.Helpers.Functional.csproj" />
   </ItemGroup>
 
   <ItemGroup>

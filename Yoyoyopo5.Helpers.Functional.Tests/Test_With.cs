@@ -1,6 +1,3 @@
-using Yoyoyopo5.Helpers.Functional;
-using Xunit;
-
 namespace Yoyoyopo5.Helpers.Functional.Tests;
 
 public class Test_With
